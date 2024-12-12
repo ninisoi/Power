@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Regular.ttf') format('truetype');
+  }
+  @font-face {
+    font-family: 'Poppins';
+    src: url('fonts/Poppins-Light.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Goldman';
+    src: url('fonts/Goldman-Bold.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Goldman';
+    src: url('fonts/Goldman-Regular.ttfS') format('truetype');
+  }
+.logo{
+    cursor: pointer;
+}
+body{
+    background-color: #1F1B30;
+}
+.text1{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 200;
+    color: white;
+    cursor: pointer;
+}
+.header{
+    background-color: #1F1B30;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    padding: 0 80px 0 80px;
+}
+.navigation2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.contact{
+    font-family: 'poppins';
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    border: solid 1px #6EDE92;
+    background-color: #1F1B30;
+    padding: 6px 8px 6px 8px;
+    cursor: pointer;
+}
+.bg{
+    width: 100%;
+    height: 770px;
+}
+.headline{
+    font-family: 'goldman';
+    font-size: 98px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
+.htext{
+    font-family: 'poppins';
+    font-size: 36px;
+    font-weight: lighter;
+    color: white;
+    text-align: center;
+}
+.herotext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 511px;
+}
+.button1{
+    font-family: 'poppins';
+    font-size: 24px;
+    font-weight: 400;
+    color: #0D081C;
+    background-color: #6EDE92;
+    border: solid 2px #6EDE92;
+    padding: 16px 14px 16px 14px;
+}
+.button2{
+    font-family: 'poppins';
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    background-color: transparent;
+    border: solid 2px #9878F2;
+    padding: 16px 14px 16px 14px;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 22px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 26px;
+}
+.frame1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: absolute;
+    top: 62px;
+    left: 700px;
+}
+.hero{
+    position: relative;
+}
+.text2{
+    font-family: 'poppins';
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+    width: 319px;
+    height: 73px;
+    background-color: #9878F2;
+    border: solid 1px #9878F2;
+}
+.text3{
+    font-family: 'poppins';
+    font-size: 22px;
+    font-weight: 700;
+    color: #1F1B30;
+    width: 210px;
+    height: 73px;
+    background-color: #6EDE92;
+    border: solid 1px #9878F2;
+}
+.text4{
+    font-family: 'poppins';
+    font-size: 22px;
+    font-weight: 700;
+    color: #1F1B30;
+    width: 211px;
+    height: 73px;
+    background-color: #6EDE92;
+    border: solid 1px #9878F2;
+}
+.theader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+}
+.text5{
+    font-family: 'poppins';
+    font-size: 22px;
+    font-weight: 400;
+    color: white;
+    padding: 20px;
+    width: 740px;
+    height: 274px;
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0px;
+    border: solid 1px #9878F2;
+    width: 740px;
+    height: 272px;
+}
+.heading{
+    font-family: "goldman";
+    font-size: 58px;
+    font-weight: 400;
+    color: white;
+}
+.frame2{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.section2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+padding: 0 80px 0 80px;
+}
+.aboutus{
+    width: 100%;
+    height: 450px;
+}
+.boxes{
+    display: grid;
+    grid-template-columns: repeat(2, 238px);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas: "box1 box2"
+    "box3 box4";
+    gap:20px; 
+}
+.box1{
+    background-color: #1F1B30;
+}
+.box2{
+    background-color: rebeccapurple;
+}
+.box3{
+    background-color: red;
+}
+.box4{}
